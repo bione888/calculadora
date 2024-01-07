@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de médias escolares(bimestre)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="img">
+        <a href="/jinja/index.html">
+        <img id="homeimg" src="/imgs/15766.png">
+        </a>
+    </div>
+
+    <div id="td">
+
+    <h1>calculadora de médias</h1>
+    <h3 id="st">(bimestre)</h3>
+    <div id="d1"> a média da escola:<br><input type="number" id="escola" ><br> </div>
+    <p id="trr">peso dos bimestres</p> 
+    1bi:<input type="number" id="tt1"><br>
+    2bi:<input type="number" id="tt2"><br>
+    3bi:<input type="number" id="tt3"><br>
+    4bi:<input type="number" id="tt4"><br>
+
+
+
+<div id="d2">1 bimestre<input type="number" id="t1"><br>
+    2 bimestre<input type="number" id="t2"><br>
+    3 bimestre<input type="number" id="t3"><br>
+    4 bimestre<input type="number" id="t4"><br>
+    <input type="button" id="calc" value="calcular" onclick="media()" ></div>
+
+    <div id="md"></div>
+    <div id="ar"></div>
+    <div id="falta"></div>
+
+    <div class="tudo">
+        <div class="but">
+            <img id="imgbt" src="/imgs/butaomenu.png" onclick="menubar()">
+        </div>
+
+        <div class="menu">
+            <a class="options" href="/bi/calc.html" id="op1">
+                Bimestre<br>
+            </a>
+
+            <a href="/se/calc.html" class="options" id="op2">
+                Semestre<br>
+            </a>
+
+            <a href="/tri/calc.html" class="options" id="op3">
+                trimestre
+            </a>
+
+            <a href="https://www.instagram.com/gabrielcastrobione/" class="contato" >
+                <img src="/imgs/insta.png" id="insta">
+            </a>
+
+            <span id="butaorecolher"  onclick="recolher()">
+                >>
+            </span>
+        
+        
+        </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
