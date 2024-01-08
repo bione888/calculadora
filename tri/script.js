@@ -19,7 +19,7 @@ function media() {
     let t1 = Number(tri1.value)
     let t2 = Number(tri2.value)
     let t3 = Number(tri3.value)
-  
+
     let media = (((t1*tr1) + (t2*tr2) + (t3*tr3))/(tr1 + tr2 + tr3))
     let faltando = (escola - media)
     div.innerHTML = `A sua média e de ${media.toFixed(2)}<br>`

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(176, 83, 176);
+    background-color: #313131;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 20 pt;
@@ -31,6 +31,7 @@ h1 {
 
  #tt1 , #tt2 , #tt3 {
     margin-top: 10px;
+    margin-top: 20px;
  }
 
  #trr {
@@ -131,10 +132,14 @@ h1 {
  input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 
  input[type=number] {
-  width: 50px;
+  width: 150px;
   border-radius: 50px;
-  height: 20px;
+  height: 40px;
   text-align: center;
+  border: 2px solid aqua;
+  transition-duration: 0.3s;
+  font-size: 1em;
+  background-color: #313131;
  }
 
  #calc {
@@ -151,6 +156,32 @@ h1 {
   color: white;
   transform: translateY(-10%);
  }
+
+ input[type=number]:hover {
+         width: 170px;
+         height: 40px;
+ }
+
+ #inputs {
+  margin-top: 50px;
+ }
+
+ #trr {
+  margin-top: 20px
+ }
+
+ input::placeholder {
+      color: aqua;
+ }
+
+ #escola {
+  margin-top: -20px;
+ }
+
+ #t1 , #t2 , #t3 {
+  margin-top: 15px;
+ }
+
 
  
  
