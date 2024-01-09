@@ -44,6 +44,7 @@ h1 {
     margin-top: 20px;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
+    border-radius: 15px;
  }
 
  #td {
@@ -52,7 +53,6 @@ h1 {
 
  #homeimg:hover {
     background-color: white;
-    border-radius: 15px;
     transform: translateY(-20%);
  }
 
@@ -84,7 +84,6 @@ h1 {
    width: 200px;
    height: 900px;
    background: rgb(79,79,195);
-   background: linear-gradient(90deg, rgba(79,79,195,1) 0%, rgba(0,212,255,1) 51%);
    position: absolute;
    left: 100%;
    top: 0;
@@ -127,6 +126,8 @@ h1 {
   width: 35px;
   height: 35px;
   position: relative;
+  transition-duration: 0.3s;
+  border-radius: 25px;
  }
 
  input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
@@ -180,9 +181,12 @@ h1 {
 
  #t1 , #t2 , #t3 {
   margin-top: 15px;
+ } 
+ 
+ #insta:hover {
+        background-color: black;
+        transform: translateY(-15%);
  }
-
-
  
  
 
