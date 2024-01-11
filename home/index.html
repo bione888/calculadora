@@ -6,7 +6,26 @@
     <title>Pagina principal</title>
     <link rel="stylesheet" href="home.css">
 </head>
-<body>
+<body onload="login()"> 
+    
+    <div class="login">
+        <div class="inputs">
+       <input type="text" id="user" placeholder="username" class="log"><br>
+       <input type="password" id="pw" placeholder="PassWord" class="log">
+        </div>
+
+    <button type="submit" class="submit" onclick="logout()">
+        <p id="tsub">Log In</p>
+
+    </div>
+
+     <div class="td">
+    <div class="hl">
+        <a  id="perfil" href="/yourpf/pf.html">
+        <div id="hello">
+        </div>
+        </a>
+    </div>
 
     <h1 id="tp">Calculadora de médias</h1>
 
@@ -22,7 +41,10 @@
         <input type="button" value="semestre" id="bt3">
     </a>
 
+     </div>
+
 
     <script src="home.js"></script>
+    <script src="/yourpf/pf.html"></script>
 </body>
 </html>

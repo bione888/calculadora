@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #313131;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+#pimg {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+input[type = button] {
+    margin-top: 40px;
+    width: 120px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid aqua;
+    background-size: 200% auto;
+    border-radius: 50px;
+}
+
+input[type = button]:hover {
+    background-color: aqua;
+    color: black;
+}
+
+
+
+.login {
+    margin-top: 25%;
+  }
+  
+
+  .log {
+    background-color: black;
+    border: 2px solid #00DBDE ;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 1em;
+    color: #00DBDE;
+    text-align: center;
+    justify-content: center;
+  }
+
+  input[type = password] {
+    margin-top: 25px;
+  }
+
+  .log::placeholder {
+    color: #00DBDE;
+    text-align: center;
+  }
+
+  .log:focus::placeholder {
+       font-size: 0.6em;
+       position: relative;
+       bottom: 30%;
+       right: 20%;
+      }
+
+      .submit {
+        width: 75px;
+        height: 30px;
+        border-radius: 50px;
+        margin-top: 20px;
+        background-color: aqua;
+        border: 2px solid black;
+      }
+      
+      #tsub {
+        position: absolute;
+        margin-top: -7px;
+        margin-left: 20px;
+      }
+
+      .submit:hover , #tsub:hover {
+        background: black;
+        border-color: #00DBDE;
+        color: white;
+      }
+
+      #hello {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        left: 80%;
+        position: absolute;
+        top: 25px;
+        border-radius: 40px;
+        padding: 15px;
+        text-align: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+      }
+
+      #userpic {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+      }
+
+      #hello:hover {
+        color: white;
+        background-color: black;
+        transform: translateY(-20%);
+      }
+
+      #userpic:hover {
+        background-color: white;
+      }
+
+      #perfil {
+        text-decoration: none;
+        color: black;
+      }
+
+      #uname , #pword {
+        font-size: 1em;
+        margin-top: 15px;
+      }

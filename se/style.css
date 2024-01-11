@@ -188,3 +188,10 @@ margin-top: 15px;
   background-color: black;
   transform: translateY(-15%);
 }
+
+input:focus::placeholder {
+  font-size: 0.6em;
+  position: relative;
+  bottom: 30%;
+  right: 20%;
+ }

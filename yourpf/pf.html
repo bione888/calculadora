@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu perfil</title>
+    <link rel="stylesheet" href="pf.css">
+</head>
+<body onload="login()">
+   
+    <div class="login">
+        <div class="inputs">
+       <input type="text" id="user" placeholder="username" class="log"><br>
+       <input type="password" id="pw" placeholder="PassWord" class="log">
+        </div>
+
+    <button type="submit" class="submit" onclick="logout()">
+        <p id="tsub">Log In</p>
+
+    </div>
+
+    <div class="td">
+
+    <div class="seuperfil">
+        <h2>Seu perfil</h2>
+
+        <img src="/imgs/17004.png" id="pimg">
+
+        <div id="uname"></div>
+        <div id="pword"></div>
+    </div>
+
+    <a href="/tri/calc.html">
+    <input type="button" value="trimestre"><br>
+    </a>   
+    
+    <a href="/bi/calc.html">
+    <input type="button" value="bimestre"><br>
+    </a>
+
+    <a href="/se/calc.html">
+    <input type="button" value="semestre"><br>
+    </a>
+
+    </div>
+
+    <script src="pf.js"></script>
+</body>
+</html>
