@@ -3,8 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #00DBDE;
-background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    background-color: #313131;
     font-family: 'Courier New', Courier, monospace;
     color: black;
     text-align: center;
@@ -14,10 +13,15 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
     margin-top: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 
          
 #bt {
-    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-color: black;
+    border: 2px solid #00DBDE;
     margin: 10px;
     padding: 15px 45px; /*para dar tamanho ao butao */
     text-align: center;
@@ -32,12 +36,16 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   }
 
   #bt:hover {
-    background-position: right center; /* change the direction of the change here */
-    
+    background-color: #00DBDE;
+    border: 2px solid black;
+    color: black;
   }
 
+
+
   #bt2 {
-    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-color: black;
+    border: 2px solid #00DBDE;
     margin: 10px;
     padding: 15px 45px; /*para dar tamanho ao butao */
     text-align: center;
@@ -53,12 +61,15 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   }
 
   #bt2:hover {
-    background-position: right center; /* change the direction of the change here */
-    
+    background-color: #00DBDE;
+    border: 2px solid black;
+    color: black;
   }
 
+
   #bt3 {
-    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-color: black;
+    border: 2px solid #00DBDE;
     margin: 10px;
     padding: 15px 45px; /*para dar tamanho ao butao */
     text-align: center;
@@ -74,8 +85,9 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
   }
 
   #bt3:hover {
-    background-position: right center; /* change the direction of the change here */
-    
+    background-color: #00DBDE;
+    border: 2px solid black;
+    color: black;
   }
 
   .login {
@@ -158,11 +170,13 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
         transform: translateY(-20%);
       }
 
-      #userpic:hover {
-        background-color: white;
-      }
-
       #perfil {
         text-decoration: none;
         color: black;
+      }
+
+      #logtxt {
+        position: absolute;
+        left: 40%;
+        margin-top: -100px;
       }

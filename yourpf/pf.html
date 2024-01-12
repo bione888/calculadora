@@ -6,9 +6,11 @@
     <title>Seu perfil</title>
     <link rel="stylesheet" href="pf.css">
 </head>
-<body onload="login()">
-   
+<body onload="login()"  id="bd">
+
     <div class="login">
+
+        <h2 id="logtxt">Faça seu log-in aqui:</h2>
         <div class="inputs">
        <input type="text" id="user" placeholder="username" class="log"><br>
        <input type="password" id="pw" placeholder="PassWord" class="log">
@@ -19,14 +21,17 @@
 
     </div>
 
-    <div class="td">
+
+    <div class="td" >
 
     <div class="seuperfil">
         <h2>Seu perfil</h2>
 
         <img src="/imgs/17004.png" id="pimg">
 
-        <div id="uname"></div>
+        <input id="show" type="button" value="Show Info" onclick="ancora()">
+
+        <div  id="uname"></div>
         <div id="pword"></div>
     </div>
 

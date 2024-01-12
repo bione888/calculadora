@@ -19,7 +19,7 @@ h2 {
 
 
 input[type = button] {
-    margin-top: 40px;
+    margin-top: 80px;
     width: 120px;
     padding: 10px;
     background-color: black;
@@ -128,4 +128,16 @@ input[type = button]:hover {
       #uname , #pword {
         font-size: 1em;
         margin-top: 15px;
+      }
+
+      #logtxt {
+        position: absolute;
+        left: 43%;
+        margin-top: -100px;
+      }
+
+      #show {
+        position: absolute;
+        top: 150px;
+        right: 46%;
       }
