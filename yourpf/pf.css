@@ -141,3 +141,24 @@ input[type = button]:hover {
         top: 150px;
         right: 46%;
       }
+
+      #homeimg {
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        border-radius: 15px;
+     }
+
+     #homeimg:hover {
+      background-color: white;
+      transform: translateY(-20%);
+   }
+  
+   img#imgbt {
+     width: 35px;
+     height: 35px;
+     position: relative;
+     top: 7%;
+   }

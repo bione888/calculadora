@@ -27,10 +27,24 @@ function media() {
              ar.innerHTML = '(Aprovado!)'
              body.style.background = 'green'
              falta.innerHTML = ''
+             tri1.style.backgroundColor = 'green'
+             tri2.style.backgroundColor = 'green'
+             tri3.style.backgroundColor = 'green'
+             mde.style.backgroundColor = 'green'
+             tt1.style.backgroundColor = 'green'
+             tt2.style.backgroundColor = 'green'
+             tt3.style.backgroundColor = 'green'
     } else {
              ar.innerHTML = '(Reprovado!)'
              body.style.background = 'red'
              falta.innerHTML = `para ser aprovado falta(m) ${faltando.toFixed(2)} ponto(s)`
+             tri1.style.backgroundColor = 'red'
+             tri2.style.backgroundColor = 'red'
+             tri3.style.backgroundColor = 'red'
+             mde.style.backgroundColor = 'red'
+             tt1.style.backgroundColor = 'red'
+             tt2.style.backgroundColor = 'red'
+             tt3.style.backgroundColor = 'red'
     }
     
 

@@ -5,7 +5,6 @@ let logins = document.querySelector('.login')
 let pword = document.querySelector('#pword')
 let unn = document.querySelector('#uname')
 let ppw = document.querySelector('#pw')
-    let password = ppw.value
 
 function login() {
      tudo.style.display = 'none'
@@ -28,13 +27,15 @@ function logout() {
 function ancora() {
          let pwck = window.prompt('Confirm Password:')
          let pwc = pwck.value
-         let password2 = password.value
+         let password2 = ppw.value
          let hideb = document.querySelector('#show')
-         if (pwc == password2) {
+         if (pwck == password2) {
                unn.style.display = ''
                pword.style.display = ''
                hideb.style.display = 'none'
          } else {
             window.alert('Senha Incorreta')
+            unn.style.display = 'none'
+            pword.style.display = 'none'
          }
 }
