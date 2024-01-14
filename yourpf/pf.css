@@ -138,7 +138,7 @@ input[type = button]:hover {
 
       #show {
         position: absolute;
-        top: 150px;
+        top: 180px;
         right: 46%;
       }
 
@@ -161,4 +161,12 @@ input[type = button]:hover {
      height: 35px;
      position: relative;
      top: 7%;
+   }
+
+   #pimg {
+    margin-top: 20px;
+   }
+
+   #role {
+    margin-top: 10px;
    }

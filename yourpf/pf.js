@@ -5,6 +5,7 @@ let logins = document.querySelector('.login')
 let pword = document.querySelector('#pword')
 let unn = document.querySelector('#uname')
 let ppw = document.querySelector('#pw')
+let role = document.querySelector('#role')
 
 function login() {
      tudo.style.display = 'none'
@@ -16,12 +17,22 @@ function logout() {
     let un = document.querySelector('#user')
     let usernames = un.value
     let passwordd = ppw.value
+    let alterarimg = document.querySelector('#altimg')
+    let rolee = role
     unn.innerHTML = `Username: ${usernames}`
     pword.innerHTML = `Password : ${passwordd}`
     pword.style.color = 'white'
     pword.style.display = 'none'
+    rolee.style.display = 'none'
     unn.style.color = 'white'
     unn.style.display = 'none'
+    
+    if (usernames == 'Bione' && passwordd == 270608) {
+        alterarimg.innerHTML = ' <img src="/imgs/devpimg.png" id="pimg"> '
+        rolee.innerHTML = 'Main Dev'
+        rolee.style.color = 'purple'
+        rolee.style.textDecoration = 'underline'
+    }
 }
 
 function ancora() {
@@ -32,10 +43,12 @@ function ancora() {
          if (pwck == password2) {
                unn.style.display = ''
                pword.style.display = ''
+               role.style.display = ''
                hideb.style.display = 'none'
          } else {
             window.alert('Senha Incorreta')
             unn.style.display = 'none'
             pword.style.display = 'none'
+            role.style.display = 'none'
          }
 }
