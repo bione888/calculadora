@@ -6,6 +6,7 @@ let pword = document.querySelector('#pword')
 let unn = document.querySelector('#uname')
 let ppw = document.querySelector('#pw')
 let role = document.querySelector('#role')
+let alterarimg = document.querySelector('#pimg')
 
 function login() {
      tudo.style.display = 'none'
@@ -17,7 +18,6 @@ function logout() {
     let un = document.querySelector('#user')
     let usernames = un.value
     let passwordd = ppw.value
-    let alterarimg = document.querySelector('#altimg')
     let rolee = role
     unn.innerHTML = `Username: ${usernames}`
     pword.innerHTML = `Password : ${passwordd}`
@@ -28,7 +28,7 @@ function logout() {
     unn.style.display = 'none'
     
     if (usernames == 'Bione' && passwordd == 270608) {
-        alterarimg.innerHTML = ' <img src="/imgs/devpimg.png" id="pimg"> '
+        alterarimg.src = '/imgs/dev.png'
         rolee.innerHTML = 'Main Dev'
         rolee.style.color = 'purple'
         rolee.style.textDecoration = 'underline'

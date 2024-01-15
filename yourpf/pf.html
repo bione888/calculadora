@@ -31,9 +31,19 @@
         </div>
         <h2>Seu perfil</h2>
 
+        <div class="container">
+
+        <div id="alterador">
+        <input type="button" value="Alterar imagem" onclick="alterar()" id="alt"><br>
+        <input type="text" id="afterimg" placeholder="insira o url da imagem"><br>
+        <input type="button" id="altere" value="alterar" onclick="imagem()">
+        </div>
+
+       
+
     <div class="seuperfil">
 
-        <span id="altimg"> <img src="/imgs/17004.png" id="pimg"> </span>
+        <img src="/imgs/17004.png" id="pimg">
 
         <input id="show" type="button" value="Show Info" onclick="ancora()">
 
@@ -54,8 +64,11 @@
     <input type="button" value="semestre"><br>
     </a>
 
+        </div>
+
     </div>
 
     <script src="pf.js"></script>
+    <script src="pf2.js"></script>
 </body>
 </html>
