@@ -33,6 +33,14 @@ function logout() {
         rolee.style.color = 'purple'
         rolee.style.textDecoration = 'underline'
     }
+
+    if (usernames && passwordd) {
+
+    } else {
+        alert('Preencha todos campos abaixo')
+        logins.style.display = ''
+        tudo.style.display = 'none'
+    }
 }
 
 function ancora() {
